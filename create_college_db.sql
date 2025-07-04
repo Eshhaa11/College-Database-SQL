@@ -68,7 +68,22 @@ INSERT INTO courses (id, title, instructor_id) VALUES
 (5, 'HTML Basics', 5),
 (6, 'JavaScript Essentials', 6),
 (7, 'API', 7),
-(8, 'React Intro', 8);
+(8, 'React Intro', 8),
+(9, 'Flask', 9),
+(10, 'CSS', 10)
+
+INSERT INTO enrollments (id, student_id, course_id, grade) VALUES 
+(1, 1, 1, 'A'),
+(2, 2, 2, 'A'),
+(3, 3, 3, 'B'),
+(4, 4, 4, 'B+'),
+(5, 5, 5, 'B-'),
+(6, 6, 6, 'B'),
+(7, 7, 7, 'B'),
+(8, 8, 8, 'C'),
+(9, 9, 9, 'A'),
+(10, 10, 10, 'C'),
+
 
 
 
