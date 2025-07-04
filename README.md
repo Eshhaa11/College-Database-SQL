@@ -33,7 +33,7 @@ The database follows 3NF normalization and includes these five core tables:
 - Join: Courses and instructors
 - Many-to-many: Who’s enrolled in what
 - Aggregation: Count enrolled students per course
-- Filter: Students enrolled in "Intro to Python"
+- Filter: Students enrolled in "Intro to rogramming"
 - Join across 3 tables: Courses by department
 - Aggregation + HAVING: Instructors teaching >1 course
 - Subquery: Students not enrolled in any course
@@ -42,8 +42,8 @@ The database follows 3NF normalization and includes these five core tables:
 
 ## 📦 Deliverables
 
-- `create_college_db.sql`: Full schema and 10+ rows per table
-- `college_queries.sql`: 10 custom queries with comments
+- `create_college_db.sql`: Full schema and 10 rows per table
+- `college_queries.sql`: 10 custom queries 
 - `README.md`: This file – explains schema and queries
 
 ## 👤 Author
