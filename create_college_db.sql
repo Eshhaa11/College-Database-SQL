@@ -48,5 +48,17 @@ INSERT INTO instructors (id, name, department_id) VALUES
 (4, 'Dr Adams', 4),
 (5, 'Dr. Esha', 5);
 
+INSERT INTO students (id, name, major_id) VALUES
+(1, 'Esha Patel', 1),
+(2, 'Natasha Karanja', 2),
+(3, 'Saleh Nasser', 3),
+(4, 'Vansh Patel', 4),
+(5, 'Tilak Patel', 5),
+(6, 'Ansh Patel', 6),
+(7, 'Kripa Patel', 7),
+(8, 'Vanshika Patel', 8),
+(9, 'Prachi Patel', 9),
+(10, 'Nidhi Patel', 10);
+
 
 
