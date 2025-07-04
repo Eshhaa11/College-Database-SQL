@@ -19,7 +19,7 @@ CREATE TABLE students (
 
 CREATE TABLE courses (
     id INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
+    title TEXT NOT NULL,
     instructor_id INTEGER,
     FOREIGN KEY (instructor_id) REFERENCES instructors(id)
 );
@@ -59,6 +59,16 @@ INSERT INTO students (id, name, major_id) VALUES
 (8, 'Vanshika Patel', 8),
 (9, 'Prachi Patel', 9),
 (10, 'Nidhi Patel', 10);
+
+INSERT INTO courses (id, title, instructor_id) VALUES
+(1, 'Calculus', 1),
+(2, 'Intro To Programming', 2),
+(3, 'Database' , 3),
+(4, 'Python', 4),
+(5, 'HTML Basics', 5),
+(6, 'JavaScript Essentials', 6),
+(7, 'API', 7),
+(8, 'React Intro', 8);
 
 
 
