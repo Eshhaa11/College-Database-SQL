@@ -17,5 +17,14 @@ CREATE TABLE students (
     FOREIGN KEY (major_id) REFERENCES departments(id)
 );
 
+CREATE TABLE courses (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    instructor_id INTEGER,
+    FOREIGN KEY (instructor_id) REFERENCES instructors(id)
+);
+
+
+
 
 
