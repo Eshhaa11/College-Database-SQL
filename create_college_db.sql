@@ -40,13 +40,24 @@ INSERT INTO departments (id, name) VALUES
 (3, 'Mathematics'),
 (4, 'Accounts'),
 (5, 'Biology');
+(6, 'Geography'),
+(7, 'Business'),
+(8, 'Python I'),
+(9, 'Physics'),
+(10, 'Chemistry');
 
 INSERT INTO instructors (id, name, department_id) VALUES
 (1, 'Dr. Patel', 1),
 (2, 'Dr. Lee', 2),
 (3, 'Dr. Chen', 3),
 (4, 'Dr Adams', 4),
-(5, 'Dr. Esha', 5);
+(5, 'Dr. Esha', 5),
+(6, 'Dr.John'),
+(7, 'Dr. Ansh'),
+(8, 'Dr. Linda'),
+(9, 'Dr. Shah'),
+(10, 'Dr. Mehta');
+
 
 INSERT INTO students (id, name, major_id) VALUES
 (1, 'Esha Patel', 1),
