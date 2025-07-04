@@ -34,4 +34,19 @@ CREATE TABLE enrollments (
 );
 
 
+INSERT INTO departments (id, name) VALUES
+(1, 'Computer Science'),
+(2, 'English'),
+(3, 'Mathematics'),
+(4, 'Accounts'),
+(5, 'Biology');
+
+INSERT INTO instructors (id, name, department_id) VALUES
+(1, 'Dr. Patel'),
+(2, 'Dr. Lee'),
+(3, 'Dr. Chen'),
+(4, 'Dr Adams'),
+(5, 'Dr. Esha');
+
+
 
